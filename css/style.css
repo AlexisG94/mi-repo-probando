@@ -137,3 +137,13 @@ grid-template-areas:
     }
 
 }
+
+ul{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(170,35,165,0.7624458719034488) 100%);
+}
+
+.trans:hover{
+    transform: scale(1.5);
+    transition: all 4s;
+}
