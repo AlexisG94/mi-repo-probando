@@ -13,10 +13,8 @@ ul li{
     margin: 0.5rem 0.5rem;
 }
 
-ul li:hover{
-background-color: blueviolet;
-color: black;
-}
+
+
 a{
     text-decoration: none;
     background-color: black; 
@@ -90,7 +88,7 @@ img{
     
 }
 
-section div{
+div{
     background-color: blueviolet;
     height: 700;
     width: 400;
@@ -144,6 +142,11 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(170,35,165,0.76244
 }
 
 .trans:hover{
-    transform: scale(1.5);
-    transition: all 4s;
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.pixel{
+    width: 60px;
+    height: 60px;
 }
