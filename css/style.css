@@ -17,7 +17,7 @@ ul li{
 
 a{
     text-decoration: none;
-    background-color: black; 
+   
 }
 
  ul{
@@ -53,11 +53,9 @@ p{
     padding: 2rem;
 }
 
-form{
-    color: blueviolet;
-}
 
-container footer{
+
+ footer{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -74,25 +72,22 @@ img{
     width: 20rem;
     max-height: 300px;
     max-width: 300px;
-    border-radius: 3px;
-    margin: 10px;
-    
-    
+    border-radius: 20px;
+    margin: 5px;
 }
 
-.img2{
-    height: 400px;
-    width: 100%;
-    max-width: 100%;
-    max-height: 500px;
+
+.pixell{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
     
 }
 
 div{
-    background-color: blueviolet;
+    
     height: 700;
     width: 400;
-    border: 4px dashed blueviolet;
     display: grid;
     grid-template-columns: repeat(4, auto) ;
     grid-template-rows: repeat(1, auto) ;
@@ -150,3 +145,21 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(170,35,165,0.76244
     width: 60px;
     height: 60px;
 }
+
+.pagoss{
+    padding: 50px;
+    display: flex;
+}
+
+.texto{
+    color: blueviolet;
+    margin: 10px;
+}
+
+.inquietud{
+    color: blueviolet;
+    margin: 10px;
+}
+
+
+
