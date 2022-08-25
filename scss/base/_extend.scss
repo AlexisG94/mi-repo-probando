@@ -1,0 +1,18 @@
+%disposicion{
+    display: inline-block;
+    align-content: flex-start;
+}
+
+.footer{
+    background-color: black;
+    @extend %disposicion;
+}
+.clase{
+    background-color: aqua;
+    @extend %disposicion;
+    @extend %color;
+}
+%color{
+    background-color: red;
+    color: white;
+}

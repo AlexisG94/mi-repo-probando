@@ -1,0 +1,9 @@
+$color-base: violet;
+$color-secundario: blueviolet;
+
+footer{
+    background-color: darken($color-base, 10%);
+}
+ul{
+    background-color: lighten($color-secundario, 10%);
+}

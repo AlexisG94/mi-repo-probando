@@ -1,0 +1,28 @@
+@import './base/carinioalcora';
+@import './base/operadores';
+@import './base/mixin';
+@import './base/extend';
+@import './base/listas';
+@import './base/variables';
+@import './componentes/ul';
+@import './componentes/aside';
+
+
+ul{
+    color: violet;
+    font-size: 20px;
+    background-image:url(../img/18862-geometricos.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    li{
+        display: inline-block;
+    border: 1px solid black;
+    padding: 0.3rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+    }
+}
+aside{
+    background-color: blueviolet;
+    grid-area: asd;
+}

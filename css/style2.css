@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    /*etiqueta raiz*/font-size: 100%;
+}
+
+ul li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0.3rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+}
+
+
+
+a{
+    text-decoration: none;
+   
+}
+
+ ul{
+    color: violet;
+    font-size: 20px;
+    background-image:url(../img/18862-geometricos.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: violet;
+    font-size: 50px;
+    font-family: Cambria;
+    text-align: center;
+}
+
+.colorVioleta p{
+  color: violet;  
+}
+
+
+body {
+    background-image: url(../img/32027-negro.jpg);
+}
+
+p{
+    color: blueviolet;
+    overflow: hidden;
+    width: 90%;
+    margin: 3rem auto;
+    border: 2px solid violet;
+    padding: 2rem;
+}
+
+
+
+ footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blueviolet;
+    justify-content: center;
+    align-content: flex-start;
+    
+    
+
+}
+
+img{
+    height: 20rem;
+    width: 20rem;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+.pixell{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    
+}
+
+div{
+    
+    height: 700;
+    width: 400;
+    display: grid;
+    grid-template-columns: repeat(4, auto) ;
+    grid-template-rows: repeat(1, auto) ;
+}
+.griduno, .griddos, .gridtres, .gridcuatro{
+    font-size: 2rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px 20px 20px 20px;
+}
+
+main{
+    padding: 10px;
+    grid-area: main;
+}
+
+aside{
+    background-color: blueviolet;
+    grid-area: asd;
+}
+
+#grilla{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-areas: "main asd asd" ;
+}
+
+@media screen and (max-width: 768px){
+  #grilla{
+grid-template-columns:0.5fr 0.5fr;
+grid-template-rows:0.5fr;
+grid-template-areas: 
+"main main"
+"asd asd";
+
+    }
+
+}
+
+ul{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(170,35,165,0.7624458719034488) 100%);
+}
+
+.trans:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.pixel{
+    width: 60px;
+    height: 60px;
+}
+
+.pagoss{
+    padding: 50px;
+    display: flex;
+}
+
+.texto{
+    color: blueviolet;
+    margin: 10px;
+}
+
+.inquietud{
+    color: blueviolet;
+    margin: 10px;
+}
+
+
+

@@ -1,0 +1,20 @@
+@mixin titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+$colors: black;
+$ancho: 100%;
+$borde: 20px;
+
+@mixin colores ($colors){
+background-color: $color;
+width: $ancho;
+border: $borde;
+}
+
+.footer{
+    @include colores($colors)
+}

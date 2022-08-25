@@ -1,0 +1,19 @@
+{
+  "name": "clase02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisG94/mi-repo-probando.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisG94/mi-repo-probando/issues"
+  },
+  "homepage": "https://github.com/AlexisG94/mi-repo-probando#readme"
+}
